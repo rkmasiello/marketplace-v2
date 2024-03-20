@@ -57,7 +57,7 @@ export default ({ attribute, collectionTokenCount, collectionId }: Props) => {
             {formatNumber(attribute.tokenCount)} ({attributeRarity}%) have this
           </Text>
           <Text style="body3" css={{ color: '$gray11' }}>
-            floor
+            Price
           </Text>
         </Flex>
       </Flex>

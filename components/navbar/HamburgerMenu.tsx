@@ -59,11 +59,11 @@ const HamburgerMenu = () => {
           justify="between"
         >
           <Link href="/">
-            <Box css={{ width: 46, cursor: 'pointer' }}>
+            <Box css={{ width: 66, cursor: 'pointer' }}>
               <Image
-                src="/reservoirLogo.svg"
-                width={36}
-                height={36}
+                src="/arcade-logo-dark-mode.svg"
+                width={56}
+                height={56}
                 alt="Reservoir"
               />
             </Box>

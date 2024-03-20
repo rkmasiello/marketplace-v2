@@ -166,7 +166,7 @@ const Home: NextPage<Props> = ({ ssr }) => {
             }}
           >
             <Text style="h4" as="h4">
-              Featured
+              Hautty Featured Products
             </Text>
           </Flex>
           <Box

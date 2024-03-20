@@ -304,7 +304,7 @@ export const BatchListingsTableRow: FC<BatchListingsTableRowProps> = ({
                     }
                   }}
                 >
-                  Floor
+                  Price
                 </Button>
                 {listing.token?.token?.collection?.floorAsk?.price?.amount
                   ?.decimal ? (

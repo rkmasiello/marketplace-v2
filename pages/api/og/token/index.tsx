@@ -214,7 +214,7 @@ export default async function handler(request: NextRequest) {
                       fontFamily: 'Regular',
                     }}
                   >
-                    Floor
+                    Price
                   </span>
                   <span
                     style={{

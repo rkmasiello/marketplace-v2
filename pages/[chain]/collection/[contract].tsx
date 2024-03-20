@@ -762,7 +762,7 @@ const CollectionPage: NextPage<Props> = ({ id, ssr }) => {
                   >
                     <Flex css={{ gap: '$1' }}>
                       <Text style="body1" as="p" color="subtle">
-                        Floor
+                        Price
                       </Text>
                       <Text style="body1" as="p" css={{ fontWeight: '700' }}>
                         {collection?.floorAsk?.price?.amount?.raw &&

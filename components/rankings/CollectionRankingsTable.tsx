@@ -158,7 +158,7 @@ const RankingsTableRow: FC<RankingsTableRowProps> = ({
             </Flex>
             <Flex align="center">
               <Text css={{ mr: '$1', color: '$gray11' }} style="body3">
-                Floor
+                Price
               </Text>
               <FormatCryptoCurrency
                 amount={collection?.floorAsk?.price?.amount?.decimal}

@@ -342,7 +342,7 @@ const BatchListings: FC<Props> = ({
                   css={{ minWidth: 'max-content' }}
                   onClick={applyFloorPrice}
                 >
-                  Floor
+                  Price
                 </Button>
                 {!applyTopTraitDisabled && (
                   <Button

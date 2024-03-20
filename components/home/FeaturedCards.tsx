@@ -164,7 +164,7 @@ export const FeaturedCards: React.FC<FeaturedCardsProps> = ({
                             as="p"
                             css={{ mb: 2 }}
                           >
-                            Floor
+                            Price
                           </Text>
                           <FormatCryptoCurrency
                             amount={

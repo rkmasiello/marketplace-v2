@@ -392,7 +392,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
         <Flex justify="between" css={{ width: '100%', gap: '$3' }}>
           <Flex direction="column" align="start" css={{ width: '100%' }}>
             <Text style="subtitle3" color="subtle">
-              Floor
+              Price
             </Text>
             <FormatCryptoCurrency
               amount={
@@ -1100,7 +1100,7 @@ const TableHeading: FC<{ isOwner: boolean }> = ({ isOwner }) => (
     </TableCell>
     <TableCell>
       <Text style="subtitle3" color="subtle">
-        Floor
+        Price
       </Text>
     </TableCell>
     <TableCell>
