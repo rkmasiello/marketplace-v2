@@ -130,21 +130,21 @@ const Navbar = () => {
             }}
           >
             <Link href={`/${routePrefix}`}>
-              <NavItem>Explore</NavItem>
+              <NavItem>EXPLORE</NavItem>
             </Link>
 
             <HoverCard.Root openDelay={200}>
               <HoverCard.Trigger>
-                <NavItem>Trending</NavItem>
+                <NavItem>LEND | BORROW</NavItem>
               </HoverCard.Trigger>
               <HoverCard.Content sideOffset={24} align="start">
                 <Card css={{ p: 24, width: 240, border: '1px solid $gray4' }}>
                   <Flex css={{ gap: '$4' }} direction="column">
                     <Link href={`/${routePrefix}/collections/trending`}>
-                      <NavItem>Collections</NavItem>
+                      <NavItem>COLLECTIONS</NavItem>
                     </Link>
                     <Link href={`/${routePrefix}/mints/trending`}>
-                      <NavItem>Mints</NavItem>
+                      <NavItem>MINTS</NavItem>
                     </Link>
                   </Flex>
                 </Card>
@@ -189,7 +189,7 @@ const Navbar = () => {
             <HoverCard.Root openDelay={120}>
               <HoverCard.Trigger>
                 <a target="_blank" href={`https://docs.reservoir.tools/docs`}>
-                  <NavItem>Developers</NavItem>
+                  <NavItem>DEVELOPERS</NavItem>
                 </a>
               </HoverCard.Trigger>
               <HoverCard.Content sideOffset={24} align="start">
@@ -230,7 +230,7 @@ const Navbar = () => {
           {isConnected && (
             <Link href={`/portfolio/${address || ''}?chain=${routePrefix}`}>
               <Box css={{ mr: '$2' }}>
-                <NavItem>Portfolio</NavItem>
+                <NavItem>PORTFOLIO</NavItem>
               </Box>
             </Link>
           )}

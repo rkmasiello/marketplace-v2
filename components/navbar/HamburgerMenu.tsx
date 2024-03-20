@@ -131,7 +131,7 @@ const HamburgerMenu = () => {
                   pt: '24px',
                 }}
               >
-                Explore
+                EXPLORE
               </Text>
             </Link>
             <Link href="/ethereum/collections/trending" legacyBehavior>
@@ -243,7 +243,7 @@ const HamburgerMenu = () => {
                     width: '100%',
                   }}
                 >
-                  Explore
+                  EXPLORE
                 </Text>
               </Link>
               <Link href={`/portfolio/${address || ''}`} legacyBehavior>
@@ -257,7 +257,7 @@ const HamburgerMenu = () => {
                     width: '100%',
                   }}
                 >
-                  Portfolio
+                  PORTFOLIO
                 </Text>
               </Link>
               <Anchor

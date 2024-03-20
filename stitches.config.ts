@@ -22,8 +22,13 @@ import { createStitches } from '@stitches/react'
 import type * as Stitches from '@stitches/react'
 import { reset } from 'utils/css/reset'
 import { Inter } from "next/font/google"
+import { Syne } from "next/font/google"
 
 const inter = Inter({
+  subsets: ['latin'],
+})
+
+const syne = Syne({
   subsets: ['latin'],
 })
 
@@ -124,7 +129,7 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
       fontSizes: {},
       fontWeights: {},
       fonts: {
-        body: inter.style.fontFamily,
+        body: syne.style.fontFamily,
         button: '$body',
       },
       lineHeights: {},

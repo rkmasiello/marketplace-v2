@@ -86,13 +86,13 @@ export const Footer = () => {
     >
       <Flex css={{ gap: 80, '@bp600': { gap: 136 } }}>
         <Flex direction="column">
-          <SectionTitle title="Developers" />
+          <SectionTitle title="GOVERNANCE" />
           {developerSectionLinks.map((props) => (
             <SectionLink key={props.name} {...props} />
           ))}
         </Flex>
         <Flex direction="column">
-          <SectionTitle title="Company" />
+          <SectionTitle title="LEND | BORROW" />
           {companySectionLinks.map((props) => (
             <SectionLink key={props.name} {...props} />
           ))}

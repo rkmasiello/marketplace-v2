@@ -5,6 +5,7 @@ initializeAnalytics()
 import ErrorTrackingProvider from 'components/ErrorTrackingProvider'
 
 import { Inter } from 'next/font/google'
+import { Syne } from 'next/font/google'
 import type { AppContext, AppProps } from 'next/app'
 import { default as NextApp } from 'next/app'
 import { ThemeProvider, useTheme } from 'next-themes'
@@ -46,6 +47,10 @@ const inter = Inter({
   subsets: ['latin'],
 })
 
+const syne = Syne({
+  subsets: ['latin'],
+})
+
 export const NORMALIZE_ROYALTIES = process.env.NEXT_PUBLIC_NORMALIZE_ROYALTIES
   ? process.env.NEXT_PUBLIC_NORMALIZE_ROYALTIES === 'true'
   : false
@@ -83,10 +88,10 @@ const queryClient = new QueryClient()
 
 //CONFIGURABLE: Here you can override any of the theme tokens provided by RK: https://docs.reservoir.tools/docs/reservoir-kit-theming-and-customization
 const reservoirKitThemeOverrides = {
-  headlineFont: inter.style.fontFamily,
-  font: inter.style.fontFamily,
-  primaryColor: '#6E56CB',
-  primaryHoverColor: '#644fc1',
+  headlineFont: syne.style.fontFamily,
+  font: syne.style.fontFamily,
+  primaryColor: '#48F0D1',
+  primaryHoverColor: '#48F0D1',
 }
 
 function AppWrapper(props: AppProps & { baseUrl: string }) {
