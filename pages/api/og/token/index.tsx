@@ -106,8 +106,8 @@ export default async function handler(request: NextRequest) {
               gradientTransform="translate(1042 570.221) rotate(107.623) scale(952.739 1693.64)"
             >
               <stop stop-color="#C171FF" />
-              <stop offset="0.432292" stop-color="#7000FF" />
-              <stop offset="0.65625" stop-color="#80D8FF" />
+              <stop offset="0.432292" stop-color="#48F0D1" />
+              <stop offset="0.65625" stop-color="#48F0D1" />
               <stop offset="1" stop-color="#354FFF" />
             </radialGradient>
             <clipPath id="clip0_1207_77">

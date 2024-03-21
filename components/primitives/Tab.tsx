@@ -7,6 +7,7 @@ const TabsList = styled(TabsPrimitive.List, {
   borderBottom: '1px solid $gray5',
   mt: '$5',
   mb: '$4',
+  color: 'white',
 })
 
 const TabsTrigger = styled(TabsPrimitive.Trigger, {

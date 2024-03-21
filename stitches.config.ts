@@ -42,17 +42,15 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
   createStitches({
     theme: {
       colors: {
-        ...gray,
-        ...crimson,
-        ...violet,
-        ...violetA,
-        ...slate,
-        ...red,
+        ...crimsonDark,
+        ...violetDark,
+        ...violetDarkA,
+        ...slateDark,
+        ...greenDark,
+        ...irisDark,
         ...whiteA,
+        ...redDark,
         ...blackA,
-        ...iris,
-        ...green,
-        ...indigo,
 
         //Aliases
         primary1: '$iris1',
@@ -63,7 +61,7 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
         primary6: '$iris6',
         primary7: '$iris7',
         primary8: '$iris8',
-        primary9: '$iris9',
+        primary9: '#48F0D1',
         primary10: '$iris10',
         primary11: '$iris11',
         primary12: '$iris12',
@@ -92,7 +90,7 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
         gray7: '$slate7',
         gray8: '$slate8',
         gray9: '$slate9',
-        gray10: '$slate10',
+        gray10: '#48F0D1',
         gray11: '$slate11',
         gray12: '$slate12',
 
@@ -110,12 +108,13 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
         red11: '$crimson11',
         red12: '$crimson12',
 
-        neutralBg: 'white',
-        neutralBgSubtle: 'white',
-        panelShadow: 'rgba(0,0,0,0.1)',
-        panelBg: '$gray2',
-        panelBorder: 'transparent',
-        dropdownBg: 'white',
+        neutralBgSubtle: '$gray3',
+        neutralBg: '$gray1',
+
+        panelBg: '$gray3',
+        panelBorder: '$slate7',
+        panelShadow: 'transparent',
+        dropdownBg: '$gray3',
         sidebarOverlay: 'black',
       },
       space: {
@@ -130,7 +129,8 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
       fontWeights: {},
       fonts: {
         body: syne.style.fontFamily,
-        button: '$body',
+        special: inter.style.fontFamily,
+        button: '$special',
       },
       lineHeights: {},
       letterSpacings: {},
@@ -235,8 +235,8 @@ export const { createTheme, keyframes, styled, globalCss, getCssText } =
       bp1500: '(min-width: 1500px)',
       motion: '(prefers-reduced-motion)',
       hover: '(any-hover: hover)',
-      dark: '(prefers-color-scheme: dark)',
-      light: '(prefers-color-scheme: light)',
+      dark: '(prefers-color-scheme: light)',
+      light: '(prefers-color-scheme: dark)',
     },
   })
 
@@ -265,7 +265,7 @@ export const darkTheme = createTheme({
     primary6: '$iris6',
     primary7: '$iris7',
     primary8: '$iris8',
-    primary9: '$iris9',
+    primary9: '#48F0D1',
     primary10: '$iris10',
     primary11: '$iris11',
     primary12: '$iris12',
@@ -294,7 +294,7 @@ export const darkTheme = createTheme({
     gray7: '$slate7',
     gray8: '$slate8',
     gray9: '$slate9',
-    gray10: '$slate10',
+    gray10: '#48F0D1',
     gray11: '$slate11',
     gray12: '$slate12',
 

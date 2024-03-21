@@ -15,7 +15,7 @@ import {
   RainbowKitProvider,
   getDefaultConfig,
   darkTheme as rainbowDarkTheme,
-  lightTheme as rainbowLightTheme,
+  darkTheme as rainbowLightTheme,
 } from '@rainbow-me/rainbowkit'
 import * as Tooltip from '@radix-ui/react-tooltip'
 import {
